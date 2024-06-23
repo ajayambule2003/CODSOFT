@@ -1,4 +1,2 @@
-# CODSOFT 
-Java programming some problems solutions.
-
-.
+# CODSOFT
+Java programming some problems solutions. 
