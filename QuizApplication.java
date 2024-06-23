@@ -75,7 +75,7 @@ public class QuizApplication {
         }
 
         private void displayResult() {
-            System.out.println("\nQuiz Completed!");
+            System.out.println("\nQuiz Completed !");
             System.out.println("Your score: " + score + "/" + questions.length);
             System.out.println("Summary of answers:");
             for (int i = 0; i < questions.length; i++) {
