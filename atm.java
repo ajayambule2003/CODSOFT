@@ -7,7 +7,7 @@ class atm {
         String name = sc.next();
         System.out.println("Enter your pin:");
         sc.next();
-        System.out.println("Login Successful!!\n\nWelcome " + name);
+        System.out.println("Login Successful !!\n\nWelcome " + name);
 
         int bal = 0, n;
         String hist = "";
