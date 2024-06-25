@@ -24,3 +24,18 @@ Transaction History: The user can view a list of all transactions performed duri
 Exit: The user can choose to exit the program.
 Continue or Exit: After each transaction, the user is asked if they want to continue or exit. If they choose to continue, the main menu is displayed again.
 Close Scanner: The scanner is closed when the user chooses to exit
+
+3. **This Java program is a quiz application that asks multiple-choice questions to the user.**
+ Here's a brief summary of its functionality:
+
+Question Class: Represents a quiz question, including the question text, answer options, and the correct answer.
+
+Quiz Class:
+
+Fields: Holds an array of Question objects, the user's score, the current question index, a flag for whether an answer was submitted, the user's answer, and a Timer.
+start() Method: Initiates the quiz, iterates through each question, displays it, starts a timer, gets the user's answer, updates the score, and stops the timer. The user has 10 seconds to answer each question.
+displayQuestion() Method: Prints the current question and its options.
+startTimer() Method: Starts a 10-second timer for the current question. If time runs out before an answer is submitted, it moves to the next question.
+stopTimer() Method: Stops the timer.
+displayResult() Method: Displays the quiz results, including the score and summary of answers.
+Main Method: Creates an array of Question objects, initializes a Quiz object with these questions, and starts the quiz.
