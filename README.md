@@ -43,7 +43,7 @@ Functionality:
         Represents a quiz question with options and correct answer.
 
     Quiz Class:
-        Fields: Manages questions, user score, current question index, timer, and user answers.
+        Fields: Manages questions, user score, current question index, timer, and user answers. 
         start(): Initiates the quiz, displays questions, handles user input, and updates score.
         displayQuestion(): Shows the current question and options.
         startTimer(): Starts a 10-second timer per question.
