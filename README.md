@@ -35,7 +35,7 @@ Quiz Class:
 Fields: Holds an array of Question objects, the user's score, the current question index, a flag for whether an answer was submitted, the user's answer, and a Timer.
 start() Method: Initiates the quiz, iterates through each question, displays it, starts a timer, gets the user's answer, updates the score, and stops the timer. The user has 10 seconds to answer each question.
 displayQuestion() Method: Prints the current question and its options.
-startTimer() Method: Starts a 10-second timer for the current question. If time runs out before an answer is submitted, it moves to the next question.
+startTimer() Method: Starts a 10-second timer for the current question. If time runs out before an answer is submitted, it moves to the next question. 
 stopTimer() Method: Stops the timer. 
 displayResult() Method: Displays the quiz results, including the score and summary of answers.
 Main Method: Creates an array of Question objects, initializes a Quiz object with these questions, and starts the quiz.
