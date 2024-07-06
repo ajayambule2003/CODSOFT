@@ -33,7 +33,7 @@ Functionality:
     Continuation:
         After each transaction, the user is prompted to continue or exit.
 
-**Quiz Application**
+**Quiz Application** 
 Summary:
 
 **This Java program is a quiz application that asks multiple-choice questions with a timer for each question.**
